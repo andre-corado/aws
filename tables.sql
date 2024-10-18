@@ -1,0 +1,9 @@
+use mydb;
+
+CREATE TABLE temperature (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    value FLOAT NOT NULL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+
